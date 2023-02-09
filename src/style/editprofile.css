@@ -1,0 +1,83 @@
+input {
+  width: 100%;
+  padding: 8px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  resize: vertical;
+  border: none;
+  outline: 0.1px solid #ccc;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+.okk {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.btn_ok {
+  width: 5cm !important;
+  margin-top: 1cm !important;
+  margin-left: 14.2cm !important;
+  background: rgb(167, 147, 254) !important;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width:513px){
+ .btn_change{
+  left: -7cm !important;
+  position:relative;
+ }
+}
+@media only screen and (max-width:281px){
+  .btn_change{
+   left: -10cm !important;
+   position:relative;
+   width: 3cm !important;
+  }
+ }
+ @media only screen and (max-width:541px){
+  .btn_change{
+   left: -10cm !important;
+   position:relative;
+  }
+ }
+ @media only screen and (max-width:768px){
+  .btn_change{
+   left: -10cm !important;
+   position:relative;
+  }
+ }

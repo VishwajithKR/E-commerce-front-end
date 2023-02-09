@@ -1,0 +1,195 @@
+.profile {
+    background-color: rgb(230, 230, 230);
+    background-size: cover;
+    padding: 50px;
+
+
+}
+.btn_ok0 {
+    width: 5cm !important;
+    margin-top: 1cm !important;
+    margin-left: 14.2cm !important;
+    background: rgb(167, 147, 254) !important;
+  }
+
+.btn-1 {
+    position: absolute !important;
+    left: -2.5cm;
+    top: 13cm;
+    cursor: pointer !important;
+}
+
+.btn-2 {
+    position: absolute !important;
+    left: 3.4cm !important;
+    top: 13cm !important;
+}
+
+.btn-3 {
+    position: absolute !important;
+    left: 9.3cm;
+    top: 13cm;
+}
+/*  */
+@media only screen and (max-width:1353px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -5cm !important;
+         top: 13.4cm !important;
+         cursor: pointer !important;
+         width: 4cm !important;
+     }
+     .btn-2 {
+        position: absolute !important;
+        left: 0.4cm !important;
+        top: 13.4cm !important;
+        cursor: pointer !important;
+        width: 4.5cm !important;
+    }
+    .btn-3 {
+        position: absolute !important;
+        left:6cm !important;
+        top: 13.4cm !important;
+        cursor: pointer !important;
+        width: 4cm !important;
+    }
+ }
+ @media only screen and (max-width:1232px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -5cm;
+         top: 13.5cm !important;
+         cursor: pointer !important;
+         width: 3cm !important;
+     }
+ }
+ @media only screen and (max-width:1157px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -5cm;
+         top: 14cm !important;
+         cursor: pointer !important;
+         width: 3cm !important;
+     }
+ }
+
+ @media only screen and (max-width:1111px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -7cm !important;
+         top: 14.5cm !important;
+         cursor: pointer !important;
+         width: 3cm !important;
+     }
+     .btn-2 {
+        position: absolute !important;
+        left: -3.5cm !important;
+        top: 14.5cm !important;
+        cursor: pointer !important;
+        width: 5cm !important;
+    }
+    .btn-3 {
+        position: absolute !important;
+        left: 2cm !important;
+        top: 14.5cm !important;
+        cursor: pointer !important;
+        width: 3cm !important;
+    }
+ }
+@media only screen and (max-width:992px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -12cm !important;
+         top: 13cm !important;
+         cursor: pointer !important;
+         width: 3cm !important;
+     }
+     .btn-2 {
+        position: absolute !important;
+        left: -5cm !important;
+        top: 13cm !important;
+        cursor: pointer !important;
+        width: 5cm !important;
+    }
+    .btn-3 {
+        position: absolute !important;
+        left: 3cm !important;
+        top: 13cm !important;
+        cursor: pointer !important;
+        width: 3cm !important;
+    }
+ }
+@media only screen and (max-width:750px) {
+   .btn-1 {
+        position: absolute !important;
+        left: -12cm !important;
+        top: 13cm !important;
+        cursor: pointer !important;
+        width: 3cm !important;
+    }
+    .btn-2 {
+        position: absolute !important;
+        left: -7cm !important;
+        top: 13cm !important;
+        cursor: pointer !important;
+        width: 5cm !important;
+    }
+     .btn-3 {
+        position: absolute !important;
+        left: -0.5cm !important;
+        top: 13cm !important;
+        cursor: pointer !important;
+        width: 3cm !important;
+    }
+}
+@media only screen and (max-width:600px) {
+    .btn-1 {
+         position: absolute !important;
+         left: -12cm !important;
+         top: 17cm !important;
+         cursor: pointer !important;
+         width: 3cm !important;
+     }
+     .btn-2 {
+        position: absolute !important;
+        left: -8cm !important;
+        top: 17cm !important;
+        cursor: pointer !important;
+        width: 4.5cm !important;
+    } 
+     .btn-3 {
+        position: absolute !important;
+        left: -3cm !important;
+        top: 17cm !important;
+        cursor: pointer !important;
+        width: 3cm !important;
+    }
+ }
+@media only screen and (max-width:437px) {
+   
+    
+.btn-1 {
+    position: absolute !important;
+    left: -14cm !important;
+    top: 16.9cm !important;
+    cursor: pointer !important;
+    width: 2cm !important;
+}
+.btn-2 {
+    position: absolute !important;
+    left: -11cm !important;
+    top: 16.9cm !important;
+    cursor: pointer !important;
+    width: 4cm !important;
+    align-items: center !important;justify-content: center !important;
+}
+.btn-3 {
+    position: absolute !important;
+    left: -6cm !important;
+    top: 16.9cm !important;
+    cursor: pointer !important;
+    width: 2cm !important;
+}
+
+}
+

@@ -1,0 +1,17 @@
+.btn_dl {
+    width: 5cm;
+    margin-top: 1cm;
+    margin-left: 14.2cm;
+    background: rgb(167, 147, 254);
+}
+
+.position_password{
+    position: relative;
+}
+
+.eye_dlt{
+    position: absolute;
+   margin-top: 8px;
+   margin-left: -1cm;
+    
+}

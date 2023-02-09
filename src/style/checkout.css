@@ -1,0 +1,82 @@
+.billing_form .form_group input {
+    border: 1px solid var(--card-bg-02);
+}
+
+.form_group input {
+    width: 20cm;
+    height: 1cm;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.checkout_cart {
+    padding: 20px;
+    background: rgb(100, 100, 255);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.checkout_cart h6,
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout_cart h6 {
+    margin-top: 20px;
+}
+
+.checkout_cart h4 {
+    border-top: 1px solid rgba(221, 221, 221, 0.253);
+    padding-top: 20px;
+}
+
+.submit_btn {
+    font-weight: 700 !important;
+    background-color: blue !important;
+}
+
+.input_size {
+    width: 15cm;
+    font-weight: 500;
+}
+
+.title_font_size {
+    font-weight: 1000;
+    color: rgb(95, 95, 255);
+    font-size: larger;
+}
+
+
+.checkout_box {
+    /* width: 100%; */
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 2cm;
+    /* bottom: 5cm; */
+    z-index: 999;
+    box-shadow: 3px 3px 8px-3pxrgb(249, 95, 95);
+    background: rgb(202, 202, 248);
+    align-items: center;
+    justify-content: center;
+    margin-left:4cm;
+    margin-top: 4cm;
+}
+
+.required_text {
+    color: red;
+    font-weight: 1000;
+
+}
+
+.billing{
+    background-color: rgb(202, 202, 248);
+    background-size: cover;
+    width: 100%;
+    
+}
+.form-label{
+font-weight: 500;
+}

@@ -1,0 +1,160 @@
+.primary_btn {
+    background: rgb(145, 120, 255);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.login_btn {
+    background: #fff !important;
+    color: var(--primary-color);
+    font-weight: 600;
+    position: relative;
+}
+
+.abc_btn {
+    position: relative;
+}
+
+.login_group input {
+    width: 13cm;
+    height: 1cm;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login_group select {
+    width: 13.1cm;
+    height: 1.05cm;
+    padding: px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 1.6cm;
+    outline: none !important;
+    border: .01px !important;
+}
+
+.eye_btns {
+    position: absolute;
+    margin-left: -0.8cm;
+    color: black;
+    margin-top: 6px;
+}
+
+.signup_btn{
+    width: 7cm;
+}
+
+.pwd_btn {
+    position: relative;
+}
+
+.eye_btn {
+    position: absolute;
+    margin-left: -0.8cm;
+    color: black;
+    margin-top: 6px;
+}
+
+.login_clr {
+    background: rgb(5, 5, 93);
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
+
+.login_clr button {
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.button_ok {
+    cursor: pointer;
+}
+
+.button_not {
+    cursor: not-allowed;
+}
+
+
+
+@media only screen and (max-width:1420px) {
+    .login_group input {
+        width: 13cm;
+        height: 1cm;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    /* .login_group{
+        position: relative;
+    } */
+    .login_group select {
+        width: 13cm;
+        height: 1cm;
+        padding: 10px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-left: 0.6cm !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .login_group input {
+        width: 9cm;
+        height: 1cm;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .login_group select {
+        width: 9cm;
+        height: 1cm;
+        padding: 10px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-left: 1.2cm !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .login_group select {
+        width: 9.1cm;
+        height: 1cm;
+        padding: 10px;
+        padding-bottom: 5px;
+
+        border-radius: 5px;
+        margin-left:4.4cm !important; 
+    }
+}
+@media only screen and (max-width:768px) {
+    .login_group select {
+        width: 9.1cm;
+        height: 1cm;
+        padding: 10px;
+        padding-bottom: 5px;
+
+        border-radius: 5px;
+        margin-left:2cm !important; 
+    }
+}
+@media only screen and (max-width:500px) {
+    .login_group input {
+        width: 6cm;
+        height: 1cm;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .login_group select {
+        width: 6cm;
+        height: 1cm;
+        padding: 10px;
+        padding-bottom: 5px;
+
+        border-radius: 5px;
+        margin-left: 2.5cm !important;
+      
+    }
+   
+    
+}

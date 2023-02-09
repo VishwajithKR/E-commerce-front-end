@@ -1,0 +1,27 @@
+.payment_box {
+    width: 15cm;
+    height: 10cm;
+    border-color: black;
+    background: rgb(145, 120, 255);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    /* position:absolute; */
+
+}
+.payment_box h4{
+    color: rgb(254, 254, 255) !important;
+    margin-top: 10px !important;
+}
+
+.payment_option{
+    justify-content: space-between !important;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5cm;
+    margin-right: 2cm;
+    color: white;
+}
