@@ -25,3 +25,21 @@
     margin-right: 2cm;
     color: white;
 }
+
+@media only screen and (max-width:660px) {
+  
+    .payment_box{
+        width: 100% !important;
+    }
+    
+     
+ }
+
+ @media only screen and (max-width:420px) {
+  
+    .payment_box{
+        width: 100% !important;
+    }
+    
+     
+ }

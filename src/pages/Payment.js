@@ -6,12 +6,12 @@ import '../style/payment.css'
 function Payment() {
 
   const navigate = useNavigate()
-  const quantity = useSelector(state => state.cart.TotalQuality)
+  // const quantity = useSelector(state => state.cart.TotalQuality)
   const totalAmount = useSelector(state => state.cart.TotalAmount)
-  const name = useSelector(state => state.cart.userDetails)
- 
+  // const name = useSelector(state => state.cart.userDetails)
+
   const handleSubmit = (e) => {
-    
+
     e.preventDefault();
     if (totalAmount === "") {
       alert("please enter the amount")
@@ -29,7 +29,7 @@ function Payment() {
         },
         prefill: {
           name: '',
-          email:"vishwakr1998@gmail.com",
+          email: "vishwakr1998@gmail.com",
           contact: '8300728274'
         },
         notes: {
@@ -50,7 +50,7 @@ function Payment() {
         <div className='col-lg-2'>
           {/* <h4>{name[0].userName}</h4> */}
         </div>
-        <div className='col-lg-8'>
+        <div className='col-lg-8 payment-table'>
           <div className='payment_box'>
             <br />
             <h4 className=' align-items-center justify-content-center'>Payment</h4>
@@ -77,9 +77,6 @@ function Payment() {
           </div>
 
         </div>
-
-
-
 
         <div className='col-lg-2'></div>
       </div>
