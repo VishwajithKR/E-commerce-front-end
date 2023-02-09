@@ -25,7 +25,7 @@ function Delete() {
     onSubmit: async (values) => {
       setLoading(false)
       try {
-        let userdata = await axios.post("https://sore-pink-dhole-garb.cyclic.app/deleteuser", values)
+        let userdata = await axios.post("https://ecommerce-csek.onrender.com/deleteuser", values)
         console.log(userdata)
         if (userdata.data.message === "deleted") {
           toast.success(`${user[0].userName} Account is Deleted`)

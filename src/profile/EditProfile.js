@@ -30,7 +30,7 @@ function EditProfile() {
     onSubmit: async (values) => {
       setLoading(false)
       try {
-        let user = await axios.put('https://sore-pink-dhole-garb.cyclic.app/profile-edit', values)
+        let user = await axios.put('https://ecommerce-csek.onrender.com/profile-edit', values)
         console.log(user.data.message)
         if (user.data.message === 'edited') {
           toast.success("Edited your profile, Please Re-login")

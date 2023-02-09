@@ -31,7 +31,7 @@ function ChangePassword() {
         onSubmit: async (values) => {
             setLoading(false)
             try {
-                let user = await axios.put('https://sore-pink-dhole-garb.cyclic.app/changepassword', values)
+                let user = await axios.put('https://ecommerce-csek.onrender.com/changepassword', values)
                 if (user.data.message === 'edited') {
                     toast.success('Successfully Changed.')
                     navigate('/home')

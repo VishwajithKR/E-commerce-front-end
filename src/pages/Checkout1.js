@@ -28,7 +28,7 @@ function Checkout1() {
         onSubmit: async (values) => {
             setLoading(false)
             try {
-                await axios.post('https://sore-pink-dhole-garb.cyclic.app/useraddress', values)
+                await axios.post('https://ecommerce-csek.onrender.com/useraddress', values)
                 toast.success("Ordered")
                 navigate('/payment')
             } catch (error) {

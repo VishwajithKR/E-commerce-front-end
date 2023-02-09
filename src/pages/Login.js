@@ -26,7 +26,7 @@ function Login() {
     onSubmit: async (values) => {
       setLoading(false)
       try {
-        let users = await axios.post('https://sore-pink-dhole-garb.cyclic.app/login', values)
+        let users = await axios.post('https://ecommerce-csek.onrender.com/login', values)
         window.localStorage.setItem("my_token", users.data.token)
 
         if (users.data.message === "correct") {
