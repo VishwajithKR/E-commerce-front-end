@@ -45,7 +45,7 @@ function Signup() {
       setLoading(false)
       
       try {
-        let users = await axios.post('https://ecommerce-csek.onrender.com/signup', values)
+        let users = await axios.post('https://ecommerce-csek.onrender.com/users', values)
         if (users.data.message === 'already have') {
           toast.warning("email or Phone number already used")
           navigate('/home')
