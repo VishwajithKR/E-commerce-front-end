@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/cart.css';
 import Helmet from '../helmet/Helmet';
 import CommonSection from '../UI/CommonSection';
-import { Container, Row, Col } from 'reactstrap';
+import {  Col } from 'reactstrap';
 import { motion } from 'framer-motion';
 import { cartActions } from '../redux/slice/CartSlice';
 import { useSelector, useDispatch } from 'react-redux';

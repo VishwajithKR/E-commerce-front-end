@@ -61,8 +61,12 @@ h4 {
     background: rgb(202, 202, 248);
     align-items: center;
     justify-content: center;
-    margin-left:4cm;
+    margin-left:-1cm;
     margin-top: 4cm;
+}
+
+.payment-title{
+    margin-left: 5cm;
 }
 
 .required_text {
@@ -80,3 +84,52 @@ h4 {
 .form-label{
 font-weight: 500;
 }
+
+@media only screen and (max-width:1000px) {
+  
+    .payment-title{
+     margin-left: 1cm;
+     margin-top: 6cm;
+     width: 95%;
+    }
+    .checkout_box{
+      width: 75%;
+      /* line-height: 70px; */
+      position:absolute; 
+      /* top: 2cm !important; */
+      bottom: 5cm;
+      z-index: 999;
+      box-shadow: 3px 3px 8px-3pxrgb(249, 95, 95);
+      background: rgba(202, 202, 248, 0);
+      align-items: center !important;
+      justify-content: center !important; 
+      margin-left:0.2cm;
+      margin-top: 1cm;
+    }
+     
+ }
+
+
+@media only screen and (max-width:450px) {
+  
+    .payment-title{
+     margin-left: 1cm;
+     margin-top: 5cm;
+     width: 75%;
+    }
+    .checkout_box{
+      width: 95%;
+      /* line-height: 70px; */
+      position:absolute; 
+      /* top: 2cm !important; */
+      bottom: 5cm;
+      z-index: 999;
+      box-shadow: 3px 3px 8px-3pxrgb(249, 95, 95);
+      background: rgba(202, 202, 248, 0);
+      align-items: center !important;
+      justify-content: center !important; 
+      margin-left:0.2cm;
+      margin-top: 1cm;
+    }
+     
+ }

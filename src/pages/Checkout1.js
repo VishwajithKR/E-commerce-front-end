@@ -15,6 +15,7 @@ function Checkout1() {
 
 
     const details = useSelector(state => state.cart.userDetails)
+   
     const formik = useFormik({
         initialValues: {
             user: details[0].userName,
@@ -41,21 +42,39 @@ function Checkout1() {
         <div className='container'>
             <div className='row'>
 
+                <div className='col-lg-4 checkout_box'>
+                    <div className='checkout_cart'>
+                        <h6>Total Qty:<span>{totalQty} items</span></h6>
+                        <h6>sub-Total:<span>$ {totalAmount}</span></h6>
+                        <h6>
+                            <span>
+                                Shipping :<br />
+                                free shipping
+                            </span>
+                            <span>$0</span>
+                        </h6>
 
-                <div className='col-lg-6'>
+                        <h4>Total Cost:<span>$ {totalAmount}</span></h4>
+
+
+                    </div>
+
+
+                </div>
+                <div className='col-lg-6 payment-title'>
                     <h4 className='justify-content-center text-center'>Billing Information</h4>
                     <form onSubmit={formik.handleSubmit}>
                         <div className='mt-2'>
                             <label className='form-label'>User Name</label>
                             <input type="text" class='form-control' name="user"
                                 value={formik.values.user}
-                                 />
+                            />
                         </div>
                         <div className='mt-3'>
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" name='email'
                                 value={formik.values.email}
-                              />
+                            />
                         </div>
                         <div className='mt-3'>
                             <label className='form-label'>Phone Number</label><span className='required_text'> *</span>
@@ -86,25 +105,7 @@ function Checkout1() {
 
                     </form>
                 </div>
-                <div className='col-lg-4 checkout_box'>
-                    <div className='checkout_cart'>
-                        <h6>Total Qty:<span>{totalQty} items</span></h6>
-                        <h6>sub-Total:<span>$ {totalAmount}</span></h6>
-                        <h6>
-                            <span>
-                                Shipping :<br />
-                                free shipping
-                            </span>
-                            <span>$0</span>
-                        </h6>
 
-                        <h4>Total Cost:<span>$ {totalAmount}</span></h4>
-
-
-                    </div>
-
-
-                </div>
                 <div className='col-lg-2'></div>
             </div>
         </div>
